@@ -10,7 +10,7 @@ def print_banner():
     RESET = '\033[0m'
     def print_banner():
         print(CYAN + "\n🌍 Welcome to the General Knowledge Quiz! 🌍\n" + RESET)
-        def print_question(q, options):
+        dddddef print_question(q, options):
     print(YELLOW + q + RESET)
     for key, val in options.items():
     print(YELLOW + q + RESET)
