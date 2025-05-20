@@ -36,3 +36,10 @@ def print_banner():
         {'a': 'China', 'b': 'Japan', 'c': 'South Korea', 'd': 'Thailand'},
         'b'
     )
+  def question2():
+    return ask_question(
+        "What is the capital city of Australia?",
+        {'a': 'Sydney', 'b': 'Melbourne', 'c': 'Canberra', 'd': 'Brisbane'},
+        'c'
+    )
+
