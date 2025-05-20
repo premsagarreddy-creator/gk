@@ -18,7 +18,7 @@ def print_banner();
         dddddef print_question(q, options):
     print(YELLOW + q + RESET)
     for key, val in options.items():
-    print(YELLOW + q + RESET)
+    ppprint(YELLOW + q + RESET)
     for key, val in options.items():
 
         print(f"  {key}) {val}")
