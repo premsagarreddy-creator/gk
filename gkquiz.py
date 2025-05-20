@@ -1,6 +1,6 @@
-dddddddddddef gk_quiz():
+def gk_quiz():
     """Main function placeholder for General Knowledge Quiz."""
-    pppppppass
+    pass
 def print_banner():
     print("Welcome to the General Knowledge Quiz!")
     RED = '\033[91m'
@@ -8,7 +8,7 @@ def print_banner():
     YELLlllllllOW = '\033[93m'
     CYAN = '\033[96m'
     RESET = '\033[0m'
-    ddddddddef print_banner():
+    def print_banner():
         print(CYAN + "\n🌍 Welcome to the General Knowledge Quiz! 🌍\n" + RESET)
         def print_question(q, options):
     print(YELLOW + q + RESET)
