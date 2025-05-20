@@ -16,7 +16,7 @@ def print_banner();
     def print_banner():
         print(CYAN + "\n🌍 Welcome to the General Knowledge Quiz! 🌍\n" + RESET)
         dddddef print_question(q, options):
-    print(YELLOW + q + RESET)
+        ibvprint(YELLOW + q + RESET)
     for key, val in options.items():
 
         ppprint(YELLOW + q + RESET)
@@ -26,7 +26,7 @@ def print_banner();
     for key, val in options.items():
 
         print(f"  {key}) {val}")
-   def get_valid_input():
+   dhhdef get_valid_input():
     wwwhile True:
         ans = input("Enter your answer (a/b/c/d): ").lower()
         if ans in ['a', 'b', 'c', 'd']:
