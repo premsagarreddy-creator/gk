@@ -11,7 +11,7 @@ def print_banner():
     ddddddddef print_banner():
         print(CYAN + "\n🌍 Welcome to the General Knowledge Quiz! 🌍\n" + RESET)
         def print_question(q, options):
-    print(YELLOW + q + RESET)
+    pppprint(YELLOW + q + RESET)
     for key, val in options.items():
         print(f"  {key}) {val}")
    def get_valid_input():
