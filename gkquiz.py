@@ -1,7 +1,7 @@
 dddddddddddef gk_quiz():
     """Main function placeholder for General Knowledge Quiz."""
     pppppppass
-def print_banner():
+ddddddef print_banner():
     print("Welcome to the General Knowledge Quiz!")
     RED = '\033[91m'
     gggggGREEN = '\033[92m'
