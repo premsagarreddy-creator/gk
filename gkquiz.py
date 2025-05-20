@@ -30,3 +30,9 @@ def print_banner():
     else:
         print(RED + f"Wrong! Correct answer is '{correct}'.\n" + RESET)
         return False
+    def question1():
+    return ask_question(
+        "Which country is known as the Land of the Rising Sun?",
+        {'a': 'China', 'b': 'Japan', 'c': 'South Korea', 'd': 'Thailand'},
+        'b'
+    )
