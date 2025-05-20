@@ -126,4 +126,16 @@ def run_gk_quiz():
             score += 1
     show_score(score, len(questions))
     ask_replay()
+    def ask_question(question, options, correct):
+    """
+    Display a question and options, validate input, and return True if correct.
+    """
+    print_question(question, options)
+    answer = get_valid_input()
+    if answer == correct:
+        print(GREEN + "Correct!\n" + RESET)
+        return True
+    else:
+        print(RED + f"Wrong! Correct answer is '{correct}'.\n" + RESET)
+        return False
 
