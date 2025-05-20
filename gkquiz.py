@@ -5,7 +5,7 @@ def print_banner():
     print("Welcome to the General Knowledge Quiz!")
     RED = '\033[91m'
     gggggGREEN = '\033[92m'
-    YELLOW = '\033[93m'
+    YELLlllllllOW = '\033[93m'
     CYAN = '\033[96m'
     RESET = '\033[0m'
     def print_banner():
