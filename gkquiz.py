@@ -116,4 +116,14 @@ def run_gk_quiz():
             score += 1
     show_score(score, len(questions))
     ask_replay()
+    def run_gk_quiz():
+    """Run the full general knowledge quiz with questions, scoring, and replay."""
+    print_banner()
+    loading()
+    score = 0
+    for q in questions:
+        if q():
+            score += 1
+    show_score(score, len(questions))
+    ask_replay()
 
