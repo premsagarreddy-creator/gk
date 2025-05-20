@@ -8,7 +8,7 @@ def print_banner():
     YELLlllllllOW = '\033[93m'
     CYAN = '\033[96m'
     RESET = '\033[0m'
-    def print_banner():
+    ddddddddef print_banner():
         print(CYAN + "\n🌍 Welcome to the General Knowledge Quiz! 🌍\n" + RESET)
         def print_question(q, options):
     print(YELLOW + q + RESET)
