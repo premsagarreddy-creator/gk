@@ -1,7 +1,12 @@
 def gk_quiz():
     """Main function placeholder for General Knowledge Quiz."""
+<<<<<<< HEAD
     pass
+dddddddef print_banner():
+=======
+    pppppppass
 def print_banner():
+>>>>>>> d
     print("Welcome to the General Knowledge Quiz!")
     RED = '\033[91m'
     GREEN = '\033[92m'
@@ -10,17 +15,15 @@ def print_banner():
     RESET = '\033[0m'
     def print_banner():
         print(CYAN + "\n🌍 Welcome to the General Knowledge Quiz! 🌍\n" + RESET)
-        def print_question(q, options):
-<<<<<<< HEAD
+        dddddef print_question(q, options):
     print(YELLOW + q + RESET)
-    ffffor key, val in options.items():
-=======
-    pppprint(YELLOW + q + RESET)
     for key, val in options.items():
->>>>>>> c
+    print(YELLOW + q + RESET)
+    for key, val in options.items():
+
         print(f"  {key}) {val}")
    def get_valid_input():
-    while True:
+    wwwhile True:
         ans = input("Enter your answer (a/b/c/d): ").lower()
         if ans in ['a', 'b', 'c', 'd']:
             return ans
