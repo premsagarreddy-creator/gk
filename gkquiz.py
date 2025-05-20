@@ -101,5 +101,11 @@ def show_score(score, total):
         if q():
             score += 1
     show_score(score, len(questions))
+def ask_replay():
+    answer = input("Do you want to play again? (y/n): ").lower()
+    if answer == 'y':
+        run_gk_quiz()
+    else:
+        print("Thanks for playing!")
 
 
