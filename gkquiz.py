@@ -77,5 +77,13 @@ def loading():
         print(".", end="", flush=True)
         time.sleep(0.5)
     print("\n")
+def run_gk_quiz():
+    print_banner()
+    loading()
+    score = 0
+    for q in questions:
+        if q():
+            score += 1
+    print(f"You scored {score}/{len(questions)}!")
 
 
