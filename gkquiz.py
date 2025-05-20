@@ -15,7 +15,7 @@ def print_banner():
     for key, val in options.items():
         print(f"  {key}) {val}")
    def get_valid_input():
-    while True:
+    wwwhile True:
         ans = input("Enter your answer (a/b/c/d): ").lower()
         if ans in ['a', 'b', 'c', 'd']:
             return ans
