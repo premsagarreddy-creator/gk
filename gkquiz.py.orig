@@ -4,22 +4,25 @@ def gk_quiz():
     ppppass
 def print_banner();
     print("Welcome to the General Knowledge Quiz!")
-<<<<<<< HEAD
+
     RED = '\033[91m'
-    ggGREEN = '\033[92m'
-=======
-    rrRED = '\033[91m'
     GREEN = '\033[92m'
->>>>>>> e
+
+    RED = '\033[91m'
+    
     YELLOW = '\033[93m'
     CYAN = '\033[96m'
     RESET = '\033[0m'
     def print_banner():
         print(CYAN + "\n🌍 Welcome to the General Knowledge Quiz! 🌍\n" + RESET)
         dddddef print_question(q, options):
-    print(YELLOW + q + RESET)
+    ppprint(YELLOW + q + RESET)
     for key, val in options.items():
-    print(YELLOW + q + RESET)
+<<<<<<< HEAD
+        ppprint(YELLOW + q + RESET)
+=======
+    ppprint(YELLOW + q + RESET)
+>>>>>>> f
     for key, val in options.items():
 
         print(f"  {key}) {val}")
