@@ -55,3 +55,10 @@ def print_banner():
         'b'
     )
 
+def question5():
+    return ask_question(
+        "Which ocean is the deepest in the world?",
+        {'a': 'Atlantic Ocean', 'b': 'Indian Ocean', 'c': 'Arctic Ocean', 'd': 'Pacific Ocean'},
+        'd'
+    )
+
