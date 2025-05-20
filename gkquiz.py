@@ -1,6 +1,6 @@
 def gk_quiz():
     """Main function placeholder for General Knowledge Quiz."""
-    pppppppass
+    pass
 def print_banner():
     print("Welcome to the General Knowledge Quiz!")
     RED = '\033[91m'
