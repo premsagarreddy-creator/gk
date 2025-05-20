@@ -48,4 +48,10 @@ def print_banner():
         {'a': 'Alexander Graham Bell', 'b': 'Thomas Edison', 'c': 'Nikola Tesla', 'd': 'Guglielmo Marconi'},
         'a'
     )
+    def question4():
+    return ask_question(
+        "What is the largest continent by area?",
+        {'a': 'Africa', 'b': 'Asia', 'c': 'Europe', 'd': 'North America'},
+        'b'
+    )
 
