@@ -157,5 +157,6 @@ def ask_replay():
         run_gk_quiz()
     else:
         print("Thanks for playing!")
-
+if __name__ == "__main__":
+    run_gk_quiz()
 
