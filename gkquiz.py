@@ -42,4 +42,10 @@ def print_banner():
         {'a': 'Sydney', 'b': 'Melbourne', 'c': 'Canberra', 'd': 'Brisbane'},
         'c'
     )
+    def question3():
+    return ask_question(
+        "Who invented the telephone?",
+        {'a': 'Alexander Graham Bell', 'b': 'Thomas Edison', 'c': 'Nikola Tesla', 'd': 'Guglielmo Marconi'},
+        'a'
+    )
 
