@@ -61,4 +61,5 @@ def question5():
         {'a': 'Atlantic Ocean', 'b': 'Indian Ocean', 'c': 'Arctic Ocean', 'd': 'Pacific Ocean'},
         'd'
     )
+    questions = [question1, question2, question3, question4, question5]
 
